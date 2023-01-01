@@ -1,8 +1,10 @@
+@use "sass:math";
 .card{
     display: block;
     padding: $base-padding;
     border: $base-border-thickness solid #ddd;
     box-shadow: $base-box-shadow;
+    border-radius: math.div($base-border-radius,4);
 
     .card-title{
         font-size: $base-font-size;
@@ -18,3 +20,8 @@
         }
     }
 }
+
+// @debug "Hello Cat";
+// @debug math.div($base-border-radius,4);
+// @debug math.floor(2.54);
+// @debug math.max(2.54,7.6);
