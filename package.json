@@ -1,0 +1,19 @@
+{
+  "name": "sass-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VikashPR/SASS-Library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VikashPR/SASS-Library/issues"
+  },
+  "homepage": "https://github.com/VikashPR/SASS-Library#readme"
+}
