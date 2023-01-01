@@ -1,5 +1,5 @@
 {
-  "name": "sass-library",
+  "name": "sushi-sass-library",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VikashPR/SASS-Library.git"
+    "url": "git+https://github.com/VikashPR/Sushi-SASS-Library.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VikashPR/SASS-Library/issues"
+    "url": "https://github.com/VikashPR/Sushi-SASS-Library/issues"
   },
-  "homepage": "https://github.com/VikashPR/SASS-Library#readme",
+  "homepage": "https://github.com/VikashPR/Sushi-SASS-Library#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",

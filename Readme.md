@@ -1,8 +1,10 @@
-# Documentation for the project
+# Documentation for the Sushi
+
+![a](./assets/logo.png)
 
 ## Introduction
 
-This is a custom build SASS framework for the project.
+Sushi is a custom build SASS framework.
 
 ## Prerequisites
 
