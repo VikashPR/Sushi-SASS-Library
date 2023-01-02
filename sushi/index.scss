@@ -1,6 +1,7 @@
 // Variables & Functions
 @import 'variables';
 @import 'functions';
+
 // Base and layouts
 @import 'base';
 
@@ -13,3 +14,6 @@
 
 // Utilities (margin, padding, opacity, etc)
 @import 'utilities';
+
+// Media queries
+@import 'breakpoints';

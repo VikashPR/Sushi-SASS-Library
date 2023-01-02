@@ -3425,3 +3425,34 @@ img {
 .font-xxl {
   font-size: 3rem;
 }
+
+@media (min-width: 0) {
+  .responsive-test {
+    color: red;
+  }
+}
+@media (min-width: 576px) {
+  .responsive-test {
+    color: blue;
+  }
+}
+@media (min-width: 768px) {
+  .responsive-test {
+    color: green;
+  }
+}
+@media (min-width: 992px) {
+  .responsive-test {
+    color: purple;
+  }
+}
+@media (min-width: 1200px) {
+  .responsive-test {
+    color: orange;
+  }
+}
+@media (min-width: 1400px) {
+  .responsive-test {
+    color: pink;
+  }
+}
