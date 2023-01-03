@@ -4,6 +4,8 @@
 
 // Base and layouts
 @import 'base';
+@import 'breakpoints';
+@import 'grid';
 
 // Colors
 @import 'colors';
@@ -14,6 +16,3 @@
 
 // Utilities (margin, padding, opacity, etc)
 @import 'utilities';
-
-// Media queries
-@import 'breakpoints';
