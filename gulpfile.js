@@ -10,7 +10,7 @@ function buildStyles() {
 }
 
 function watchTask() {
-  watch(["sushi/**/*.scss"], buildStyles);
+  watch(["sushi/**/*.scss", "*.html"], buildStyles);
 }
 
 exports.default = series(buildStyles, watchTask);
