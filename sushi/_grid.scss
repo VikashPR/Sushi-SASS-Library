@@ -1,7 +1,12 @@
 @use 'sass:math';
 
 $grid-columns: 12;
-
+$grid-gap: (
+    "0": 0,
+    "1": 10px,
+    "2": 20px,
+    "3": 30px,
+);
 // base layout classes
 
 .container{
@@ -17,6 +22,19 @@ $grid-columns: 12;
     flex-flow: row wrap;
 }
 
+// grid gap classes
+
+@each $key,
+$val in $grid-gap {
+    .gap-#{$key}>* {
+        padding: $val;
+    }
+
+    .gap-#{$key} {
+        margin-left: -$val;
+        margin-right: -$val;
+    }
+}
 // col classes
 @include xs {
     @for $i from 1 through $grid-columns {
