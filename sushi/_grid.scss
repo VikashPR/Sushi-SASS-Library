@@ -10,7 +10,7 @@ $grid-gap: (
 $layout-values: flex-start, flex-end, center, space-between, space-around, space-evenly;
 // base layout classes
 
-.container{
+.container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -18,7 +18,7 @@ $layout-values: flex-start, flex-end, center, space-between, space-around, space
     box-sizing: border-box;
 }
 
-.row{
+.row {
     display: flex;
     flex-flow: row wrap;
 }
@@ -36,6 +36,7 @@ $val in $grid-gap {
         margin-right: -$val;
     }
 }
+
 // justify-content classes
 @each $val in $layout-values {
     .justify-#{$val} {
@@ -49,6 +50,7 @@ $val in $grid-gap {
         align-items: $val;
     }
 }
+
 // col classes
 @include xs {
     @for $i from 1 through $grid-columns {
