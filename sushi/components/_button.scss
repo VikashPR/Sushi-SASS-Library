@@ -7,29 +7,35 @@
   border-radius: $base-border-radius;
   background-color: $bg-color;
 }
+
 .btn {
   @include btn();
 }
-@each $key, $val in $colors {
+@each $key,
+$val in $colors {
   .btn-#{$key} {
     @include btn($val);
+
     &:hover {
       background-color: lighten($val, 5%);
     }
   }
+
   .btn-outlined-#{$key} {
     @include btn(#fff);
     border: $base-border-thickness solid $val;
+
     &:hover {
       background-color: $val;
       color: #fff;
     }
   }
+
   .btn-complement-#{$key} {
     @include btn($val);
 
     &:hover {
-        color: $val;
+      color: $val;
         background-color: light-comp($val);
     }
   }
